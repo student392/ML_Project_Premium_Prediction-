@@ -1,26 +1,43 @@
-# ML-Premium-Prediction-
+# **ML Premium Prediction** <br>
+A machine learning project designed to predict insurance premiums based on customer details, helping insurers and analysts make data-driven pricing decisions.
 
-This project is a Machine Learning-based Premium Prediction App built using Streamlit for the frontend and a trained XGBoost model for predicting insurance premiums (or any other pricing-based outcomes).
+## **🧠 Overview** <br>
+This project uses machine learning techniques to analyze customer data and predict insurance premium amounts. It covers the complete ML workflow, including data preprocessing, feature engineering, model training, and evaluation. The project is ideal for learning applied machine learning and understanding real-world prediction problems in the insurance domain.
 
-## Features:-
-Interactive Streamlit web interface.<br>
-Predicts premium values using XGBoost.<br>
-Clean and efficient data preprocessing with
-pandas and numpy.<br>
-Model training and evaluation using scikit-learn.<br>
-Model persistence handled with joblib.<br>
+## **🚀 Features** <br>
+✅ Data cleaning and preprocessing<br>
+✅ Exploratory Data Analysis (EDA)<br>
+✅ Feature engineering<br>
+✅ Machine learning model training<br>
+✅ Model evaluation and performance comparison<br>
+✅ Premium prediction based on user inputs<br>
 
-## Technologies Used:-
-### Library	Version	Purpose<br>
-joblib	1.3.2	Saving and loading trained ML models<br>
-pandas	2.0.2	Data manipulation and preprocessing<br>
-streamlit	1.22.0	Web app framework for interactive UI<br>
-numpy	1.25.0	Numerical computations<br>
-scikit-learn	1.3.0	Model training, metrics, and preprocessing<br>
-xgboost	2.0.3	Gradient boosting model for prediction<br>
+## **🧱 Project Structure** <br>
+├── data/                 # Dataset files<br>
+├── notebooks/            # Jupyter notebooks for EDA and modeling<br>
+├── models/               # Trained ML models<br>
+├── src/                  # Source code for preprocessing and training<br>
+├── requirements.txt      # Python dependencies<br>
+└── README.md             # Project documentation<br>
 
-## Model Training:-
-The dataset is cleaned and preprocessed using pandas and numpy.
-The model is trained using XGBoost for high accuracy.
-Evaluation metrics like RMSE, MAE, and R² are used.
-The final model is saved as model.joblib.
+⚙️ Installation
+Install required dependencies:
+pip install -r requirements.txt
+
+▶️ Usage
+Run the Jupyter Notebook to explore data and train the model:
+jupyter notebook
+Follow the notebook steps to preprocess data, train the model, and generate premium predictions.
+
+🧪 Model Evaluation
+The model performance is evaluated using standard metrics such as accuracy, RMSE, and R² score to ensure reliable predictions.
+
+🛠️ Technologies Used
+Python
+Pandas & NumPy
+Scikit-learn
+Matplotlib & Seaborn
+Jupyter Notebook
+
+📄 License
+This project is licensed under the MIT License — see the LICENSE file for details.
