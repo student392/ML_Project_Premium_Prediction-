@@ -20,24 +20,24 @@ This project uses machine learning techniques to analyze customer data and predi
 ├── requirements.txt      # Python dependencies<br>
 └── README.md             # Project documentation<br>
 
-⚙️ Installation<br>
+## **⚙️ Installation** <br>
 Install required dependencies:<br>
 pip install -r requirements.txt<br>
 
-▶️ Usage<br>
+## **▶️ Usage** <br>
 Run the Jupyter Notebook to explore data and train the model:<br>
 jupyter notebook<br>
 Follow the notebook steps to preprocess data, train the model, and generate premium predictions.<br>
 
-🧪 Model Evaluation<br>
+## **🧪 Model Evaluation** <br>
 The model performance is evaluated using standard metrics such as accuracy, RMSE, and R² score to ensure reliable predictions.<br>
 
-🛠️ Technologies Used<br>
+## **🛠️ Technologies Used** <br>
 Python<br>
 Pandas & NumPy<br>
 Scikit-learn<br>
 Matplotlib & Seaborn<br>
 Jupyter Notebook<br>
 
-📄 License<br>
+## **📄 License** <br>
 This project is licensed under the MIT License — see the LICENSE file for details.
