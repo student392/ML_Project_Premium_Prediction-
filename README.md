@@ -1,4 +1,4 @@
-# **ML Premium Prediction** <br>
+# **💼ML Premium Prediction** <br>
 A machine learning project designed to predict insurance premiums based on customer details, helping insurers and analysts make data-driven pricing decisions.
 
 ## **🧠 Overview** <br>
